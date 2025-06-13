@@ -1,5 +1,5 @@
 <div align="left">
-  <img src="title.png" alt="TITLE" width="700">
+  <img src="dlobj-title.png" alt="TITLE" width="700">
 </div>
 
 Stable download of the Objaverse dataset under poor network conditions
