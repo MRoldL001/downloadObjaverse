@@ -13,7 +13,7 @@ python downloadObjaverse.py --json_path <your_json_path>
 ```
 
 ## 🧭 参数说明
-> [!TIPS]
+> [!TIP]
 > `todo.txt` 和 `done.txt` 被用来维护下载进度，为了方便后续操作，默认在下载完成后是保留的，可以加参数 `-d` 或者长参数 `--delete` 来在数据集全部下载完成后删除 `todo.txt` 和 `done.txt`
 
 | 参数 | 用途 |
