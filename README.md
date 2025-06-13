@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <img src="title.png" alt="TITLE" width="900">
 </div>
 
