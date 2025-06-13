@@ -1,5 +1,6 @@
 # downloadObjaverse
 Stable download of the Objaverse dataset under poor network conditions
+
 在较差的网络环境下稳定下载Objaverse数据集
 
 ## 🚀 快速开始
@@ -7,7 +8,7 @@ Stable download of the Objaverse dataset under poor network conditions
 >   请提前组织 `.json` 文件
 
 ```bash
-wget https://github.com/MRoldL001/downloadObjaverse/blob/main/DownloadObjaverse.py
+wget https://raw.githubusercontent.com/MRoldL001/downloadObjaverse/main/downloadObjaverse.py
 pip install objaverse
 python downloadObjaverse.py --json_path <your_json_path>
 ```
