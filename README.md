@@ -2,7 +2,7 @@
   <img src="title.png" alt="TITLE" width="400">
 </div>
 
-<hr style="border: 0.5px solid #ccc;" />
+---
 
 Stable download of the Objaverse dataset under poor network conditions
 
