@@ -10,7 +10,7 @@ Stable download of the Objaverse dataset under poor network conditions
 > [!IMPORTANT]
 > 请提前组织 `.json` 文件
 >
-> 仅支持 dict 和 list 两种组织形式
+> **仅支持 dict 和 list 两种组织形式**
 
 ```bash
 wget https://raw.githubusercontent.com/MRoldL001/downloadObjaverse/main/downloadObjaverse.py
@@ -20,7 +20,7 @@ python downloadObjaverse.py --json_path <your_json_path>
 
 ## 🧭 参数说明
 > [!TIP]
-> `todo.txt` 和 `done.txt` 被用来维护下载进度，为了方便后续操作，默认在下载完成后是保留的，可以加参数 `-d` 或者长参数 `--delete` 来在数据集全部下载完成后删除
+> `todo.txt` 和 `done.txt` 被用来维护下载进度，为了方便后续操作，默认在下载完成后是**保留**的，可以加参数 `-d` 或者长参数 `--delete` 来在**数据集全部下载完成后删除**
 
 | 参数 | 用途 |
 |------|------|
