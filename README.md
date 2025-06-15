@@ -19,7 +19,7 @@ Stable download of the Objaverse dataset under poor network conditions
 > **仅支持 dict 和 list 两种组织形式**
 
 > [!TIP]
-> 下载路径由 ai2 研究所提供的 `objaverse` Pathon Package 维护，在 dict 中将希望存放的路径指定为键或值不会改变预设的下载路径
+> 下载路径由 ai2 研究所提供的 `objaverse` Python Package 维护，在 dict 中将希望存放的路径指定为键或值不会改变预设的下载路径
 
 ```bash
 wget https://raw.githubusercontent.com/MRoldL001/downloadObjaverse/main/downloadObjaverse.py
