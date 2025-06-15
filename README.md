@@ -17,6 +17,7 @@ Stable download of the Objaverse dataset under poor network conditions
 > 请提前组织 `.json` 文件
 >
 > **仅支持 dict 和 list 两种组织形式**
+>
 > [!TIP]
 > 测试
 
