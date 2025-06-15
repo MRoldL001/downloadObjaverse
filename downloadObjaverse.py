@@ -8,14 +8,14 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 parser = argparse.ArgumentParser(description="Stable download of the Objaverse dataset under poor network conditions | 在较差的网络环境下稳定下载Objaverse数据集")
 parser.add_argument("--json_path", type=str, required=True, help="JSON 文件(下载列表)的路径")
-parser.add_argument("--todo_path", type=str, default=os.path.join(script_dir, "todo.txt"), help="生成 todo.txt 的路径，默认与脚本在同一目录下")
-parser.add_argument("--done_path", type=str, default=os.path.join(script_dir, "done.txt"), help="生成 done.txt 的路径，默认与脚本在同一目录下")
+parser.add_argument("--todo_path", type=str, default=script_dir, help="生成 todo.txt 的路径，默认与脚本在同一目录下")
+parser.add_argument("--done_path", type=str, default=script_dir, help="生成 done.txt 的路径，默认与脚本在同一目录下")
 parser.add_argument("-d", "--delete", action="store_true", help="在全部下载完成后删除 todo.txt 与 done.txt")
 args = parser.parse_args()
 
 json_path = args.json_path
-todo_path = args.todo_path
-done_path = args.done_path
+todo_path = os.path.join(args.todo_path,"todo.txt")
+done_path = os.path.join(args.done_path,"done.txt")
 
 if not os.path.exists(todo_path):
     with open(json_path, "r") as f:
