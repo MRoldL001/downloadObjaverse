@@ -24,7 +24,7 @@ Stable download of the Objaverse dataset under poor network conditions
 ```bash
 wget https://raw.githubusercontent.com/MRoldL001/downloadObjaverse/main/downloadObjaverse.py
 pip install objaverse
-python downloadObjaverse.py --json_path <your_json_path>
+python downloadObjaverse.py --json_path <json文件路径>
 ```
 
 ## 🧭 参数说明
