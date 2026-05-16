@@ -35,6 +35,6 @@ python downloadObjaverse.py --json_path <json文件路径>
 |------|------|
 | `--json_path` | JSON 文件(下载列表)的路径 |
 | `--todo_path` | 生成 todo.txt 的路径，默认与脚本在同一目录下 |
-| `--done_path` | 生成 todo.txt 的路径，默认与脚本在同一目录下 |
+| `--done_path` | 生成 done.txt 的路径，默认与脚本在同一目录下 |
 | `-d` `--delete` | 在全部下载完成后删除 todo.txt 与 done.txt |
 | `-h` `--help` | 显示帮助信息 |
